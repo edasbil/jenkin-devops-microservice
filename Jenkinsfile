@@ -17,7 +17,6 @@ pipeline {
 			}
 		}
 	} post {
-	
 		always {
 			echo "I always run"
 		}
@@ -27,7 +26,5 @@ pipeline {
 		failure {
 			echo "I run when failure"
 		}
-		
 	}
-
 }
